@@ -5,7 +5,7 @@ import UserController from "./controllers/users/user-controller.js"
 import TuitsController from "./controllers/tuits/tuits-controller.js";
 import mongoose from "mongoose";
 
-const CONNECTION_STRING = 'mongodb+srv://riiyabatra:Riya@3579@cluster0.yv82osi.mongodb.net/?retryWrites=true&w=majority'
+const CONNECTION_STRING = 'mongodb+srv://riiyabatra:Riya%403579@cluster0.yv82osi.mongodb.net/?retryWrites=true&w=majority'
     || 'mongodb://localhost:27017/tuiter'
 mongoose.connect(CONNECTION_STRING);
 
